@@ -1,0 +1,2252 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-15 11:23:19) [GET]
+
+NameError (uninitialized constant HomeController::Scrubyt):
+  app/controllers/home_controller.rb:3
+
+Rendered rescues/_trace (33.1ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-15 11:24:17) [GET]
+
+NameError (uninitialized constant Scrubyt::ResultDumper):
+  app/controllers/home_controller.rb:11
+
+Rendered rescues/_trace (33.9ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-15 11:24:18) [GET]
+
+NameError (uninitialized constant Scrubyt::ResultDumper):
+  app/controllers/home_controller.rb:11
+
+Rendered rescues/_trace (32.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-15 11:24:21) [GET]
+
+NameError (uninitialized constant Scrubyt::ResultDumper):
+  app/controllers/home_controller.rb:11
+
+Rendered rescues/_trace (32.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 11:25:11) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 11:25:12) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 11:31:50) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 11:32:54) [GET]
+
+ActionView::MissingTemplate (Missing template home/index.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 11:32:56) [GET]
+
+ActionView::MissingTemplate (Missing template home/index.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 11:38:02) [GET]
+Rendering home/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #7 of app/views/home/index.html.erb:
+4:   <tr>
+5:   </tr>
+6: 
+7: <% @homes.each do |home| %>
+8:   <tr>
+9:     <td><%= link_to 'Show', home %></td>
+10:     <td><%= link_to 'Edit', edit_home_path(home) %></td>
+
+    app/views/home/index.html.erb:7
+
+Rendered rescues/_trace (98.6ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 11:38:20) [GET]
+Rendering home/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #7 of app/views/home/index.html.erb:
+4:   <tr>
+5:   </tr>
+6: 
+7: <% @home.each do |home| %>
+8:   <tr>
+9:     <td><%= link_to 'Show', home %></td>
+10:     <td><%= link_to 'Edit', edit_home_path(home) %></td>
+
+    app/views/home/index.html.erb:7
+
+Rendered rescues/_trace (101.6ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 11:40:30) [GET]
+Rendering home/index
+Completed in 1401ms (View: 6, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 11:41:45) [GET]
+Rendering home/index
+Completed in 945ms (View: 6, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 11:41:47) [GET]
+Rendering home/index
+Completed in 911ms (View: 1, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 11:42:07) [GET]
+
+NoMethodError (undefined method `echo' for #<HomeController:0x24a1a6c>):
+  app/controllers/home_controller.rb:11:in `index'
+
+Rendered rescues/_trace (33.8ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 11:43:00) [GET]
+Rendering home/index
+Completed in 1062ms (View: 7, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 11:43:02) [GET]
+Rendering home/index
+Completed in 941ms (View: 1, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 11:45:10) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.write):
+  scrubyt (0.4.06) lib/scrubyt/utils/ruby_extensions.rb:66:in `write'
+  app/controllers/home_controller.rb:11:in `index'
+
+Rendered rescues/_trace (34.0ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 11:45:24) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.write):
+  scrubyt (0.4.06) lib/scrubyt/utils/ruby_extensions.rb:66:in `write'
+  app/controllers/home_controller.rb:11:in `index'
+
+Rendered rescues/_trace (34.1ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 11:45:26) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.write):
+  scrubyt (0.4.06) lib/scrubyt/utils/ruby_extensions.rb:66:in `write'
+  app/controllers/home_controller.rb:11:in `index'
+
+Rendered rescues/_trace (33.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 11:46:30) [GET]
+Rendering home/index
+Completed in 1047ms (View: 6, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 11:49:18) [GET]
+Rendering home/index
+Completed in 970ms (View: 6, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 11:49:45) [GET]
+Rendering home/index
+Completed in 926ms (View: 6, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 11:50:03) [GET]
+Rendering home/index
+Completed in 1102ms (View: 6, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 11:50:22) [GET]
+Rendering home/index
+Completed in 925ms (View: 6, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 11:50:24) [GET]
+Rendering home/index
+Completed in 892ms (View: 1, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 11:50:38) [GET]
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/controllers/home_controller.rb:11:in `[]'
+  app/controllers/home_controller.rb:11:in `index'
+
+Rendered rescues/_trace (33.9ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 11:52:49) [GET]
+Rendering home/index
+Completed in 1025ms (View: 6, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 11:53:18) [GET]
+Rendering home/index
+Completed in 1005ms (View: 6, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 11:56:02) [GET]
+Rendering home/index
+Completed in 1016ms (View: 6, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 11:57:17) [GET]
+Rendering home/index
+Completed in 1002ms (View: 6, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 11:57:52) [GET]
+Rendering home/index
+Completed in 935ms (View: 7, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 11:59:31) [GET]
+Rendering home/index
+Completed in 1029ms (View: 6, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 12:00:04) [GET]
+Rendering home/index
+Completed in 1003ms (View: 6, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 12:00:21) [GET]
+Rendering home/index
+Completed in 914ms (View: 6, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 15:49:36) [GET]
+Rendering home/index
+Completed in 955ms (View: 6, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 15:49:54) [GET]
+Rendering home/index
+Completed in 857ms (View: 1, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 15:50:06) [GET]
+Rendering home/index
+Completed in 967ms (View: 6, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 15:54:35) [GET]
+Rendering home/index
+Completed in 1127ms (View: 8, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 15:54:57) [GET]
+Rendering home/index
+Completed in 920ms (View: 8, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 15:55:28) [GET]
+Rendering home/index
+
+ActionView::TemplateError (undefined method `to_text' for [[], [], [], [], [], [], [], [], [], [], []]:Scrubyt::ScrubytResult) on line #3 of app/views/home/index.html.erb:
+1: <h1>Listing home</h1>
+2: 
+3: <% @google_data.to_text.write($stdout, 1) %>
+
+    app/views/home/index.html.erb:3
+
+Rendered rescues/_trace (98.7ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 16:02:07) [GET]
+Rendering home/index
+Completed in 1021ms (View: 6, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 16:03:38) [GET]
+Rendering home/index
+Completed in 1021ms (View: 7, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 16:03:43) [GET]
+Rendering home/index
+Completed in 1048ms (View: 1, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 16:04:57) [GET]
+Rendering home/index
+ERROR: compiling _run_erb_app47views47home47index46html46erb RAISED compile error
+/Users/solomon/programming/scrubytonrails/app/views/home/index.html.erb:4: no .<digit> floating literal anymore; put 0 before dot
+@output_buffer.concat "  "; h @google_data.1 ; @output_buffer.concat "\n"
+                                           ^
+/Users/solomon/programming/scrubytonrails/app/views/home/index.html.erb:4: syntax error, unexpected tINTEGER
+@output_buffer.concat "  "; h @google_data.1 ; @output_buffer.concat "\n"
+                                            ^
+Function body:           def _run_erb_app47views47home47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>Listing home</h1>\n"
+@output_buffer.concat "\n"
+ @google_data.each do |loop| ; @output_buffer.concat "\n"
+@output_buffer.concat "  "; h @google_data.1 ; @output_buffer.concat "\n"
+ end ; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/solomon/programming/scrubytonrails/app/views/home/index.html.erb:8:in `compile!'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:937:in `render_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1317:in `default_render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1323:in `perform_action_without_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process_without_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/head.rb:9:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/methodoverride.rb:24:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `synchronize'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+/Users/solomon/.gem/ruby/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:46:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `call'
+/Users/solomon/.gem/ruby/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/content_length.rb:13:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/chunked.rb:15:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/mongrel.rb:61:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/mongrel.rb:34:in `run'
+/Users/solomon/.gem/ruby/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/solomon/programming/scrubytonrails/app/views/home/index.html.erb:4: no .<digit> floating literal anymore; put 0 before dot
+@output_buffer.concat "  "; h @google_data.1 ; @output_buffer.concat "\n"
+                                           ^
+/Users/solomon/programming/scrubytonrails/app/views/home/index.html.erb:4: syntax error, unexpected tINTEGER
+@output_buffer.concat "  "; h @google_data.1 ; @output_buffer.concat "\n"
+                                            ^) on line #4 of app/views/home/index.html.erb:
+1: <h1>Listing home</h1>
+2: 
+3: <% @google_data.each do |loop| %>
+4:   <%h @google_data.1 %>
+5: <% end %>
+
+    app/views/home/index.html.erb:8:in `compile!'
+
+Rendered rescues/_trace (101.0ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 16:05:05) [GET]
+Rendering home/index
+ERROR: compiling _run_erb_app47views47home47index46html46erb RAISED compile error
+/Users/solomon/programming/scrubytonrails/app/views/home/index.html.erb:4: no .<digit> floating literal anymore; put 0 before dot
+@output_buffer.concat "  "; h @google_data.1 ; @output_buffer.concat "\n"
+                                           ^
+/Users/solomon/programming/scrubytonrails/app/views/home/index.html.erb:4: syntax error, unexpected tINTEGER
+@output_buffer.concat "  "; h @google_data.1 ; @output_buffer.concat "\n"
+                                            ^
+Function body:           def _run_erb_app47views47home47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>Listing home</h1>\n"
+@output_buffer.concat "\n"
+ @google_data.each do |loop| ; @output_buffer.concat "\n"
+@output_buffer.concat "  "; h @google_data.1 ; @output_buffer.concat "\n"
+ end ; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/solomon/programming/scrubytonrails/app/views/home/index.html.erb:8:in `compile!'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:937:in `render_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1317:in `default_render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1323:in `perform_action_without_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process_without_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/head.rb:9:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/methodoverride.rb:24:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `synchronize'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+/Users/solomon/.gem/ruby/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:46:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `call'
+/Users/solomon/.gem/ruby/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/content_length.rb:13:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/chunked.rb:15:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/mongrel.rb:61:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/mongrel.rb:34:in `run'
+/Users/solomon/.gem/ruby/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/solomon/programming/scrubytonrails/app/views/home/index.html.erb:4: no .<digit> floating literal anymore; put 0 before dot
+@output_buffer.concat "  "; h @google_data.1 ; @output_buffer.concat "\n"
+                                           ^
+/Users/solomon/programming/scrubytonrails/app/views/home/index.html.erb:4: syntax error, unexpected tINTEGER
+@output_buffer.concat "  "; h @google_data.1 ; @output_buffer.concat "\n"
+                                            ^) on line #4 of app/views/home/index.html.erb:
+1: <h1>Listing home</h1>
+2: 
+3: <% @google_data.each do |loop| %>
+4:   <%h @google_data.1 %>
+5: <% end %>
+
+    app/views/home/index.html.erb:8:in `compile!'
+
+Rendered rescues/_trace (100.8ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 16:05:16) [GET]
+Rendering home/index
+ERROR: compiling _run_erb_app47views47home47index46html46erb RAISED compile error
+/Users/solomon/programming/scrubytonrails/app/views/home/index.html.erb:4: no .<digit> floating literal anymore; put 0 before dot
+@output_buffer.concat "  "; h loop.1 ; @output_buffer.concat "\n"
+                                   ^
+/Users/solomon/programming/scrubytonrails/app/views/home/index.html.erb:4: syntax error, unexpected tINTEGER
+@output_buffer.concat "  "; h loop.1 ; @output_buffer.concat "\n"
+                                    ^
+Function body:           def _run_erb_app47views47home47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>Listing home</h1>\n"
+@output_buffer.concat "\n"
+ @google_data.each do |loop| ; @output_buffer.concat "\n"
+@output_buffer.concat "  "; h loop.1 ; @output_buffer.concat "\n"
+ end ; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/solomon/programming/scrubytonrails/app/views/home/index.html.erb:8:in `compile!'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:937:in `render_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1317:in `default_render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1323:in `perform_action_without_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process_without_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/head.rb:9:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/methodoverride.rb:24:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `synchronize'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+/Users/solomon/.gem/ruby/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:46:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `call'
+/Users/solomon/.gem/ruby/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/content_length.rb:13:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/chunked.rb:15:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/mongrel.rb:61:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/mongrel.rb:34:in `run'
+/Users/solomon/.gem/ruby/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/solomon/programming/scrubytonrails/app/views/home/index.html.erb:4: no .<digit> floating literal anymore; put 0 before dot
+@output_buffer.concat "  "; h loop.1 ; @output_buffer.concat "\n"
+                                   ^
+/Users/solomon/programming/scrubytonrails/app/views/home/index.html.erb:4: syntax error, unexpected tINTEGER
+@output_buffer.concat "  "; h loop.1 ; @output_buffer.concat "\n"
+                                    ^) on line #4 of app/views/home/index.html.erb:
+1: <h1>Listing home</h1>
+2: 
+3: <% @google_data.each do |loop| %>
+4:   <%h loop.1 %>
+5: <% end %>
+
+    app/views/home/index.html.erb:8:in `compile!'
+
+Rendered rescues/_trace (96.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 16:05:18) [GET]
+Rendering home/index
+ERROR: compiling _run_erb_app47views47home47index46html46erb RAISED compile error
+/Users/solomon/programming/scrubytonrails/app/views/home/index.html.erb:4: no .<digit> floating literal anymore; put 0 before dot
+@output_buffer.concat "  "; h loop.1 ; @output_buffer.concat "\n"
+                                   ^
+/Users/solomon/programming/scrubytonrails/app/views/home/index.html.erb:4: syntax error, unexpected tINTEGER
+@output_buffer.concat "  "; h loop.1 ; @output_buffer.concat "\n"
+                                    ^
+Function body:           def _run_erb_app47views47home47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>Listing home</h1>\n"
+@output_buffer.concat "\n"
+ @google_data.each do |loop| ; @output_buffer.concat "\n"
+@output_buffer.concat "  "; h loop.1 ; @output_buffer.concat "\n"
+ end ; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/solomon/programming/scrubytonrails/app/views/home/index.html.erb:8:in `compile!'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:937:in `render_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1317:in `default_render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1323:in `perform_action_without_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process_without_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/head.rb:9:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/methodoverride.rb:24:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `synchronize'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+/Users/solomon/.gem/ruby/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:46:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `call'
+/Users/solomon/.gem/ruby/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/content_length.rb:13:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/chunked.rb:15:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/mongrel.rb:61:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/mongrel.rb:34:in `run'
+/Users/solomon/.gem/ruby/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/solomon/programming/scrubytonrails/app/views/home/index.html.erb:4: no .<digit> floating literal anymore; put 0 before dot
+@output_buffer.concat "  "; h loop.1 ; @output_buffer.concat "\n"
+                                   ^
+/Users/solomon/programming/scrubytonrails/app/views/home/index.html.erb:4: syntax error, unexpected tINTEGER
+@output_buffer.concat "  "; h loop.1 ; @output_buffer.concat "\n"
+                                    ^) on line #4 of app/views/home/index.html.erb:
+1: <h1>Listing home</h1>
+2: 
+3: <% @google_data.each do |loop| %>
+4:   <%h loop.1 %>
+5: <% end %>
+
+    app/views/home/index.html.erb:8:in `compile!'
+
+Rendered rescues/_trace (96.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 16:05:25) [GET]
+Rendering home/index
+ERROR: compiling _run_erb_app47views47home47index46html46erb RAISED compile error
+/Users/solomon/programming/scrubytonrails/app/views/home/index.html.erb:4: no .<digit> floating literal anymore; put 0 before dot
+@output_buffer.concat "  ";  loop.1 ; @output_buffer.concat "\n"
+                                  ^
+/Users/solomon/programming/scrubytonrails/app/views/home/index.html.erb:4: syntax error, unexpected tINTEGER
+@output_buffer.concat "  ";  loop.1 ; @output_buffer.concat "\n"
+                                   ^
+Function body:           def _run_erb_app47views47home47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>Listing home</h1>\n"
+@output_buffer.concat "\n"
+ @google_data.each do |loop| ; @output_buffer.concat "\n"
+@output_buffer.concat "  ";  loop.1 ; @output_buffer.concat "\n"
+ end ; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/solomon/programming/scrubytonrails/app/views/home/index.html.erb:8:in `compile!'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:937:in `render_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1317:in `default_render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1323:in `perform_action_without_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process_without_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/head.rb:9:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/methodoverride.rb:24:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `synchronize'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+/Users/solomon/.gem/ruby/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:46:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `call'
+/Users/solomon/.gem/ruby/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/content_length.rb:13:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/chunked.rb:15:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/mongrel.rb:61:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/mongrel.rb:34:in `run'
+/Users/solomon/.gem/ruby/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/solomon/programming/scrubytonrails/app/views/home/index.html.erb:4: no .<digit> floating literal anymore; put 0 before dot
+@output_buffer.concat "  ";  loop.1 ; @output_buffer.concat "\n"
+                                  ^
+/Users/solomon/programming/scrubytonrails/app/views/home/index.html.erb:4: syntax error, unexpected tINTEGER
+@output_buffer.concat "  ";  loop.1 ; @output_buffer.concat "\n"
+                                   ^) on line #4 of app/views/home/index.html.erb:
+1: <h1>Listing home</h1>
+2: 
+3: <% @google_data.each do |loop| %>
+4:   <% loop.1 %>
+5: <% end %>
+
+    app/views/home/index.html.erb:8:in `compile!'
+
+Rendered rescues/_trace (96.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 16:05:38) [GET]
+Rendering home/index
+Completed in 950ms (View: 3, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 16:07:55) [GET]
+Rendering home/index
+Completed in 967ms (View: 9, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 16:09:48) [GET]
+Rendering home/index
+
+ActionView::TemplateError (undefined local variable or method `result' for #<ActionView::Base:0x24a1a30>) on line #4 of app/views/home/index.html.erb:
+1: <h1>Listing home</h1>
+2: 
+3: <% @google_data.each do |loop| %>
+4:   <%h result %>
+5: <% end %>
+
+    app/views/home/index.html.erb:4
+    app/views/home/index.html.erb:3:in `each'
+    app/views/home/index.html.erb:3
+
+Rendered rescues/_trace (98.8ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 16:10:01) [GET]
+Rendering home/index
+Completed in 928ms (View: 4, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 16:10:10) [GET]
+Rendering home/index
+Completed in 1061ms (View: 7, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 16:11:28) [GET]
+Rendering home/index
+Completed in 1112ms (View: 7, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 16:11:43) [GET]
+Rendering home/index
+Completed in 3976ms (View: 59, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 16:11:47) [GET]
+Rendering home/index
+Completed in 872ms (View: 1, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 16:23:45) [GET]
+
+NameError (uninitialized class variable @@current_form in Scrubyt::Navigation::Mechanize):
+  scrubyt (0.4.06) lib/scrubyt/core/navigation/agents/mechanize.rb:71:in `submit'
+  scrubyt (0.4.06) lib/scrubyt/core/navigation/navigation_actions.rb:58:in `submit'
+  app/controllers/home_controller.rb:6:in `index'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:75:in `instance_eval'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:75:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `new'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `define'
+  app/controllers/home_controller.rb:4:in `index'
+
+Rendered rescues/_trace (39.2ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 16:23:59) [GET]
+
+NameError (uninitialized class variable @@current_form in Scrubyt::Navigation::Mechanize):
+  scrubyt (0.4.06) lib/scrubyt/core/navigation/agents/mechanize.rb:71:in `submit'
+  scrubyt (0.4.06) lib/scrubyt/core/navigation/navigation_actions.rb:58:in `submit'
+  app/controllers/home_controller.rb:6:in `index'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:75:in `instance_eval'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:75:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `new'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `define'
+  app/controllers/home_controller.rb:4:in `index'
+
+Rendered rescues/_trace (37.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 16:24:06) [GET]
+Rendering home/index
+Completed in 962ms (View: 8, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-15 16:28:38) [GET]
+
+SyntaxError (/Users/solomon/programming/scrubytonrails/app/controllers/home_controller.rb:6: syntax error, unexpected tIDENTIFIER, expecting kEND
+    exhibition '"From the Spoon to the City": Objects by Architects from LACMA's Collection'
+                                                                                ^
+/Users/solomon/programming/scrubytonrails/app/controllers/home_controller.rb:6: unterminated string meets end of file
+/Users/solomon/programming/scrubytonrails/app/controllers/home_controller.rb:6: syntax error, unexpected $end, expecting kEND):
+  
+
+Rendered rescues/_trace (33.1ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-15 16:29:22) [GET]
+
+SyntaxError (/Users/solomon/programming/scrubytonrails/app/controllers/home_controller.rb:6: syntax error, unexpected tCONSTANT, expecting kEND
+    exhibition ""From the Spoon to the City": Objects by Architects from LACMA's Collection""
+                     ^
+/Users/solomon/programming/scrubytonrails/app/controllers/home_controller.rb:6: unterminated string meets end of file
+/Users/solomon/programming/scrubytonrails/app/controllers/home_controller.rb:6: syntax error, unexpected $end, expecting kEND):
+  
+
+Rendered rescues/_trace (31.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-15 16:30:44) [GET]
+
+SyntaxError (/Users/solomon/programming/scrubytonrails/app/controllers/home_controller.rb:6: syntax error, unexpected tIDENTIFIER, expecting kEND
+    exhibition '"From the Spoon to the City": Objects by Architects from LACMA's Collection'
+                                                                                ^
+/Users/solomon/programming/scrubytonrails/app/controllers/home_controller.rb:6: unterminated string meets end of file
+/Users/solomon/programming/scrubytonrails/app/controllers/home_controller.rb:6: syntax error, unexpected $end, expecting kEND):
+  
+
+Rendered rescues/_trace (105.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 16:32:41) [GET]
+Rendering home/index
+Completed in 186ms (View: 8, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 16:32:52) [GET]
+Rendering home/index
+Completed in 391ms (View: 1, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 16:33:06) [GET]
+Rendering home/index
+Completed in 399ms (View: 7, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 16:33:20) [GET]
+Rendering home/index
+Completed in 280ms (View: 4, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-15 16:35:07) [GET]
+
+NameError (undefined local variable or method `google_data' for HomeController:Class):
+  app/controllers/home_controller.rb:9
+
+Rendered rescues/_trace (33.1ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-15 16:35:16) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.to_xml):
+  app/controllers/home_controller.rb:9
+
+Rendered rescues/_trace (31.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-15 16:38:37) [GET]
+
+SyntaxError (/Users/solomon/programming/scrubytonrails/app/controllers/home_controller.rb:6: unknown regexp options - bdy):
+  
+
+Rendered rescues/_trace (98.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-15 16:39:01) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.to_xml):
+  app/controllers/home_controller.rb:9
+
+Rendered rescues/_trace (30.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-15 16:39:25) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.to_xml):
+  app/controllers/home_controller.rb:9
+
+Rendered rescues/_trace (30.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-15 16:39:35) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.to_xml):
+  app/controllers/home_controller.rb:9
+
+Rendered rescues/_trace (32.6ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-15 16:40:15) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.to_xml):
+  app/controllers/home_controller.rb:10
+
+Rendered rescues/_trace (31.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 16:46:25) [GET]
+Rendering home/index
+Completed in 555ms (View: 58, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 16:47:20) [GET]
+Rendering home/index
+Completed in 521ms (View: 7, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 16:48:30) [GET]
+Rendering home/index
+Completed in 370ms (View: 3, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 16:48:32) [GET]
+Rendering home/index
+Completed in 339ms (View: 4, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 16:49:59) [GET]
+Rendering home/index
+
+ActionView::TemplateError (undefined method `url_unescape' for #<ActionView::Base:0x26ed294>) on line #4 of app/views/home/index.html.erb:
+1: <h1>Listing home</h1>
+2: 
+3: <% @google_data.each do |loop| %>
+4: <%=h url_unescape(loop.result) %><br />
+5: <% end %>
+
+    app/views/home/index.html.erb:4
+    app/views/home/index.html.erb:3:in `each'
+    app/views/home/index.html.erb:3
+
+Rendered rescues/_trace (42.8ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 16:50:11) [GET]
+Rendering home/index
+
+ActionView::TemplateError (undefined method `url_unescape' for #<ActionView::Base:0x24a138c>) on line #4 of app/views/home/index.html.erb:
+1: <h1>Listing home</h1>
+2: 
+3: <% @google_data.each do |loop| %>
+4: <%=h url_unescape(loop.result) %><br />
+5: <% end %>
+
+    app/views/home/index.html.erb:4
+    app/views/home/index.html.erb:3:in `each'
+    app/views/home/index.html.erb:3
+
+Rendered rescues/_trace (42.6ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 16:50:46) [GET]
+Rendering home/index
+
+ActionView::TemplateError (undefined method `tr' for #<Hpricot::Elem:0x28659dc>) on line #4 of app/views/home/index.html.erb:
+1: <h1>Listing home</h1>
+2: 
+3: <% @google_data.each do |loop| %>
+4: <%=h url_unescape(loop.result) %><br />
+5: <% end %>
+
+    app/helpers/application_helper.rb:11:in `url_unescape'
+    app/views/home/index.html.erb:4
+    app/views/home/index.html.erb:3:in `each'
+    app/views/home/index.html.erb:3
+
+Rendered rescues/_trace (46.8ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-15 16:51:11) [GET]
+Rendering home/index
+Completed in 528ms (View: 54, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 18:26:04) [GET]
+Rendering home/index
+Completed in 479ms (View: 6, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 18:27:33) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.parent):
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/filters/tree_filter.rb:96:in `generate_XPath_for_example'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/filters/tree_filter.rb:89:in `loop'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/filters/tree_filter.rb:89:in `generate_XPath_for_example'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:113:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:112:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:112:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:69:in `new'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:69:in `method_missing'
+  app/controllers/home_controller.rb:7:in `index'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:75:in `instance_eval'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:75:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `new'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `define'
+  app/controllers/home_controller.rb:4:in `index'
+
+Rendered rescues/_trace (42.3ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-16 18:27:43) [GET]
+
+SyntaxError (/Users/solomon/programming/scrubytonrails/app/controllers/home_controller.rb:8: unknown regexp options - bdy):
+  
+
+Rendered rescues/_trace (31.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 18:27:49) [GET]
+Rendering home/index
+Completed in 418ms (View: 2, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 18:28:27) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.parent):
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/filters/tree_filter.rb:96:in `generate_XPath_for_example'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/filters/tree_filter.rb:89:in `loop'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/filters/tree_filter.rb:89:in `generate_XPath_for_example'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:113:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:112:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:112:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:69:in `new'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:69:in `method_missing'
+  app/controllers/home_controller.rb:7:in `index'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:75:in `instance_eval'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:75:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `new'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `define'
+  app/controllers/home_controller.rb:4:in `index'
+
+Rendered rescues/_trace (94.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 18:28:32) [GET]
+Rendering home/index
+Completed in 441ms (View: 2, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 18:30:35) [GET]
+Rendering home/index
+Completed in 585ms (View: 2, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 18:30:42) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.parent):
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/filters/tree_filter.rb:96:in `generate_XPath_for_example'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/filters/tree_filter.rb:89:in `loop'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/filters/tree_filter.rb:89:in `generate_XPath_for_example'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:113:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:112:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:112:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:69:in `new'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:69:in `method_missing'
+  app/controllers/home_controller.rb:7:in `index'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:75:in `instance_eval'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:75:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `new'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `define'
+  app/controllers/home_controller.rb:4:in `index'
+
+Rendered rescues/_trace (39.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 18:30:50) [GET]
+Rendering home/index
+Completed in 409ms (View: 2, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 18:32:53) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.parent):
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/filters/tree_filter.rb:96:in `generate_XPath_for_example'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/filters/tree_filter.rb:89:in `loop'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/filters/tree_filter.rb:89:in `generate_XPath_for_example'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:113:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:112:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:112:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:69:in `new'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:69:in `method_missing'
+  app/controllers/home_controller.rb:7:in `index'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:75:in `instance_eval'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:75:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `new'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `define'
+  app/controllers/home_controller.rb:4:in `index'
+
+Rendered rescues/_trace (40.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 18:32:57) [GET]
+Rendering home/index
+Completed in 505ms (View: 2, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-16 18:33:21) [GET]
+
+SyntaxError (/Users/solomon/programming/scrubytonrails/app/controllers/home_controller.rb:8: syntax error, unexpected tIDENTIFIER, expecting kEND
+    result '//a[@class='l']'
+                         ^):
+  
+
+Rendered rescues/_trace (30.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 18:33:31) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.parent):
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/filters/tree_filter.rb:96:in `generate_XPath_for_example'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/filters/tree_filter.rb:89:in `loop'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/filters/tree_filter.rb:89:in `generate_XPath_for_example'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:113:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:112:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:112:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:69:in `new'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:69:in `method_missing'
+  app/controllers/home_controller.rb:7:in `index'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:75:in `instance_eval'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:75:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `new'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `define'
+  app/controllers/home_controller.rb:4:in `index'
+
+Rendered rescues/_trace (110.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 18:33:54) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.parent):
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/filters/tree_filter.rb:96:in `generate_XPath_for_example'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/filters/tree_filter.rb:89:in `loop'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/filters/tree_filter.rb:89:in `generate_XPath_for_example'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:113:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:112:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:112:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:69:in `new'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:69:in `method_missing'
+  app/controllers/home_controller.rb:7:in `index'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:75:in `instance_eval'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:75:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `new'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `define'
+  app/controllers/home_controller.rb:4:in `index'
+
+Rendered rescues/_trace (43.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-16 18:34:14) [GET]
+
+SyntaxError (/Users/solomon/programming/scrubytonrails/app/controllers/home_controller.rb:11: syntax error, unexpected $end, expecting kEND):
+  
+
+Rendered rescues/_trace (95.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 18:34:19) [GET]
+Rendering home/index
+Completed in 285ms (View: 3, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 18:34:34) [GET]
+Rendering home/index
+Completed in 369ms (View: 1, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 18:36:37) [GET]
+Rendering home/index
+Completed in 363ms (View: 1, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 18:37:17) [GET]
+Rendering home/index
+Completed in 389ms (View: 1, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-16 18:37:50) [GET]
+
+NameError (undefined local variable or method `google_data' for HomeController:Class):
+  app/controllers/home_controller.rb:10
+
+Rendered rescues/_trace (30.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-16 18:37:56) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.to_xml):
+  app/controllers/home_controller.rb:10
+
+Rendered rescues/_trace (94.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-16 18:38:15) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.to_xml):
+  app/controllers/home_controller.rb:10
+
+Rendered rescues/_trace (30.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-16 18:39:39) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.to_xml):
+  app/controllers/home_controller.rb:10
+
+Rendered rescues/_trace (30.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-16 18:39:50) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.to_xml):
+  app/controllers/home_controller.rb:10
+
+Rendered rescues/_trace (99.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-16 18:40:12) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.to_xml):
+  app/controllers/home_controller.rb:10
+
+Rendered rescues/_trace (30.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-16 18:40:36) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.to_xml):
+  app/controllers/home_controller.rb:10
+
+Rendered rescues/_trace (30.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-16 18:40:37) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.to_xml):
+  app/controllers/home_controller.rb:10
+
+Rendered rescues/_trace (31.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 18:40:53) [GET]
+Rendering home/index
+Completed in 367ms (View: 1, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 18:41:17) [GET]
+Rendering home/index
+Completed in 192ms (View: 1, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 18:41:31) [GET]
+Rendering home/index
+Completed in 322ms (View: 8, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 18:41:48) [GET]
+Rendering home/index
+Completed in 444ms (View: 1, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 18:42:02) [GET]
+Rendering home/index
+Completed in 547ms (View: 1, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 18:42:06) [GET]
+Rendering home/index
+Completed in 500ms (View: 10, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 18:42:29) [GET]
+Rendering home/index
+Completed in 351ms (View: 1, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 18:44:20) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.parent):
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/filters/tree_filter.rb:96:in `generate_XPath_for_example'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/filters/tree_filter.rb:89:in `loop'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/filters/tree_filter.rb:89:in `generate_XPath_for_example'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:113:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:112:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:112:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:69:in `new'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:69:in `method_missing'
+  app/controllers/home_controller.rb:7:in `index'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:75:in `instance_eval'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:75:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `new'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `define'
+  app/controllers/home_controller.rb:4:in `index'
+
+Rendered rescues/_trace (46.5ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 18:44:28) [GET]
+Rendering home/index
+Completed in 442ms (View: 2, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 18:44:40) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.parent):
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/filters/tree_filter.rb:96:in `generate_XPath_for_example'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/filters/tree_filter.rb:89:in `loop'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/filters/tree_filter.rb:89:in `generate_XPath_for_example'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:113:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:112:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:112:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:69:in `new'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:69:in `method_missing'
+  app/controllers/home_controller.rb:7:in `index'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:75:in `instance_eval'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:75:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `new'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `define'
+  app/controllers/home_controller.rb:4:in `index'
+
+Rendered rescues/_trace (40.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 18:45:19) [GET]
+Rendering home/index
+Completed in 488ms (View: 1, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 18:48:28) [GET]
+Rendering home/index
+Completed in 466ms (View: 1, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 18:48:47) [GET]
+Rendering home/index
+Completed in 369ms (View: 1, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 18:49:05) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.parent):
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/filters/tree_filter.rb:96:in `generate_XPath_for_example'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/filters/tree_filter.rb:89:in `loop'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/filters/tree_filter.rb:89:in `generate_XPath_for_example'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:113:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:112:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:112:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:69:in `new'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:69:in `method_missing'
+  app/controllers/home_controller.rb:6:in `index'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:75:in `instance_eval'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:75:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `new'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `define'
+  app/controllers/home_controller.rb:4:in `index'
+
+Rendered rescues/_trace (101.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 18:49:16) [GET]
+Rendering home/index
+Completed in 392ms (View: 1, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 18:49:24) [GET]
+Rendering home/index
+Completed in 368ms (View: 2, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 20:57:07) [GET]
+
+NameError (undefined local variable or method `google_data' for #<HomeController:0x26e7d44>):
+  app/controllers/home_controller.rb:9:in `index'
+
+Rendered rescues/_trace (33.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 20:57:17) [GET]
+Rendering home/index
+Completed in 456ms (View: 2, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 20:57:42) [GET]
+Rendering home/index
+Completed in 409ms (View: 2, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 20:59:33) [GET]
+
+RuntimeError (Invalid pattern type: atribute):
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:344:in `parse_options_hash'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:83:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:199:in `new'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:199:in `method_missing'
+  app/controllers/home_controller.rb:8:in `index'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:206:in `instance_eval'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:206:in `parse_child_patterns'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:107:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:69:in `new'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:69:in `method_missing'
+  app/controllers/home_controller.rb:7:in `index'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:75:in `instance_eval'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:75:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `new'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `define'
+  app/controllers/home_controller.rb:4:in `index'
+
+Rendered rescues/_trace (108.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 20:59:38) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:189:in `first_child_node_with_attribute'
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:189:in `first_child_node_with_attribute'
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:189:in `each'
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:189:in `first_child_node_with_attribute'
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:189:in `first_child_node_with_attribute'
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:189:in `each'
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:189:in `first_child_node_with_attribute'
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:125:in `find_nearest_node_with_attribute'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/filters/attribute_filter.rb:5:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:250:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:248:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:248:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:279:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:275:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:275:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:270:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:270:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:137:in `evaluate_extractor'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:136:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:136:in `evaluate_extractor'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:133:in `loop'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:133:in `evaluate_extractor'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:132:in `catch'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:132:in `evaluate_extractor'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:85:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `new'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `define'
+  app/controllers/home_controller.rb:4:in `index'
+
+Rendered rescues/_trace (116.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 20:59:55) [GET]
+Rendering home/index
+Completed in 374ms (View: 2, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-16 21:01:44) [GET]
+
+SyntaxError (/Users/solomon/programming/scrubytonrails/app/controllers/home_controller.rb:12: syntax error, unexpected $end, expecting kEND):
+  
+
+Rendered rescues/_trace (31.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 21:01:50) [GET]
+Rendering home/index
+Completed in 519ms (View: 2, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 21:02:13) [GET]
+Rendering home/index
+Completed in 457ms (View: 2, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 21:03:14) [GET]
+Rendering home/index
+Completed in 637ms (View: 2, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 21:03:31) [GET]
+Rendering home/index
+Completed in 723ms (View: 6, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 21:03:46) [GET]
+Rendering home/index
+Completed in 638ms (View: 68, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 21:03:52) [GET]
+Rendering home/index
+Completed in 565ms (View: 2, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 21:04:11) [GET]
+Rendering home/index
+Completed in 789ms (View: 2, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 21:05:20) [GET]
+Rendering home/index
+Completed in 506ms (View: 2, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 21:06:07) [GET]
+Rendering home/index
+Completed in 478ms (View: 1, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 21:06:18) [GET]
+Rendering home/index
+Completed in 456ms (View: 6, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 21:07:15) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.parent):
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/filters/tree_filter.rb:96:in `generate_XPath_for_example'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/filters/tree_filter.rb:89:in `loop'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/filters/tree_filter.rb:89:in `generate_XPath_for_example'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:113:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:112:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:112:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:199:in `new'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:199:in `method_missing'
+  app/controllers/home_controller.rb:8:in `index'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:206:in `instance_eval'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:206:in `parse_child_patterns'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:107:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:69:in `new'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:69:in `method_missing'
+  app/controllers/home_controller.rb:7:in `index'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:75:in `instance_eval'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:75:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `new'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `define'
+  app/controllers/home_controller.rb:4:in `index'
+
+Rendered rescues/_trace (106.1ms)
+Rendered rescues/_request_and_response (1.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 21:07:35) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:189:in `first_child_node_with_attribute'
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:189:in `first_child_node_with_attribute'
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:189:in `each'
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:189:in `first_child_node_with_attribute'
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:125:in `find_nearest_node_with_attribute'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/filters/attribute_filter.rb:5:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:250:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:248:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:248:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:279:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:275:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:275:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:270:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:270:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:137:in `evaluate_extractor'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:136:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:136:in `evaluate_extractor'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:133:in `loop'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:133:in `evaluate_extractor'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:132:in `catch'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:132:in `evaluate_extractor'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:85:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `new'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `define'
+  app/controllers/home_controller.rb:4:in `index'
+
+Rendered rescues/_trace (115.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 21:07:52) [GET]
+Rendering home/index
+Completed in 770ms (View: 1, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 21:09:30) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:189:in `first_child_node_with_attribute'
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:189:in `first_child_node_with_attribute'
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:189:in `each'
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:189:in `first_child_node_with_attribute'
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:125:in `find_nearest_node_with_attribute'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/filters/attribute_filter.rb:5:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:250:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:248:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:248:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:279:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:275:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:275:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:270:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:270:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:137:in `evaluate_extractor'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:136:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:136:in `evaluate_extractor'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:133:in `loop'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:133:in `evaluate_extractor'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:132:in `catch'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:132:in `evaluate_extractor'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:85:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `new'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `define'
+  app/controllers/home_controller.rb:4:in `index'
+
+Rendered rescues/_trace (111.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 21:09:43) [GET]
+Rendering home/index
+Completed in 421ms (View: 1, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 21:12:47) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:189:in `first_child_node_with_attribute'
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:189:in `first_child_node_with_attribute'
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:189:in `each'
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:189:in `first_child_node_with_attribute'
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:125:in `find_nearest_node_with_attribute'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/filters/attribute_filter.rb:5:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:250:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:248:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:248:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:279:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:275:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:275:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:270:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:270:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:137:in `evaluate_extractor'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:136:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:136:in `evaluate_extractor'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:133:in `loop'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:133:in `evaluate_extractor'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:132:in `catch'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:132:in `evaluate_extractor'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:85:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `new'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `define'
+  app/controllers/home_controller.rb:4:in `index'
+
+Rendered rescues/_trace (47.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 21:12:59) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:189:in `first_child_node_with_attribute'
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:189:in `first_child_node_with_attribute'
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:189:in `each'
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:189:in `first_child_node_with_attribute'
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:189:in `first_child_node_with_attribute'
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:189:in `each'
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:189:in `first_child_node_with_attribute'
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:125:in `find_nearest_node_with_attribute'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/filters/attribute_filter.rb:5:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:250:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:248:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:248:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:279:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:275:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:275:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:270:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:270:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:137:in `evaluate_extractor'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:136:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:136:in `evaluate_extractor'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:133:in `loop'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:133:in `evaluate_extractor'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:132:in `catch'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:132:in `evaluate_extractor'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:85:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `new'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `define'
+  app/controllers/home_controller.rb:4:in `index'
+
+Rendered rescues/_trace (48.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 21:13:22) [GET]
+Rendering home/index
+Completed in 317ms (View: 1, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 21:13:43) [GET]
+Rendering home/index
+Completed in 499ms (View: 2, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 21:16:18) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:189:in `first_child_node_with_attribute'
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:189:in `first_child_node_with_attribute'
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:189:in `each'
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:189:in `first_child_node_with_attribute'
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:125:in `find_nearest_node_with_attribute'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/filters/attribute_filter.rb:5:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:250:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:248:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:248:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:279:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:275:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:275:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:270:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:270:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:137:in `evaluate_extractor'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:136:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:136:in `evaluate_extractor'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:133:in `loop'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:133:in `evaluate_extractor'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:132:in `catch'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:132:in `evaluate_extractor'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:85:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `new'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `define'
+  app/controllers/home_controller.rb:4:in `index'
+
+Rendered rescues/_trace (113.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 21:16:43) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.parent):
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/filters/tree_filter.rb:96:in `generate_XPath_for_example'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/filters/tree_filter.rb:89:in `loop'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/filters/tree_filter.rb:89:in `generate_XPath_for_example'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:113:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:112:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:112:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:199:in `new'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:199:in `method_missing'
+  app/controllers/home_controller.rb:8:in `index'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:206:in `instance_eval'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:206:in `parse_child_patterns'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:107:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:69:in `new'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:69:in `method_missing'
+  app/controllers/home_controller.rb:7:in `index'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:75:in `instance_eval'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:75:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `new'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `define'
+  app/controllers/home_controller.rb:4:in `index'
+
+Rendered rescues/_trace (42.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 21:16:53) [GET]
+Rendering home/index
+Completed in 740ms (View: 1, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 21:17:11) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:189:in `first_child_node_with_attribute'
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:189:in `first_child_node_with_attribute'
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:189:in `each'
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:189:in `first_child_node_with_attribute'
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:125:in `find_nearest_node_with_attribute'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/filters/attribute_filter.rb:5:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:250:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:248:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:248:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:279:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:275:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:275:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:270:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:270:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:137:in `evaluate_extractor'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:136:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:136:in `evaluate_extractor'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:133:in `loop'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:133:in `evaluate_extractor'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:132:in `catch'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:132:in `evaluate_extractor'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:85:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `new'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `define'
+  app/controllers/home_controller.rb:4:in `index'
+
+Rendered rescues/_trace (115.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 21:17:32) [GET]
+Rendering home/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #3 of app/views/home/index.html.erb:
+1: <h1>Listing home</h1>
+2: 
+3: <% @google_data.each do |loop| %>
+4: <%=h loop.result %><br />
+5: <% end %>
+
+    app/views/home/index.html.erb:3
+
+Rendered rescues/_trace (95.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 21:17:47) [GET]
+Rendering home/index
+Completed in 1429ms (View: 2, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 21:18:06) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:189:in `first_child_node_with_attribute'
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:189:in `first_child_node_with_attribute'
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:189:in `each'
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:189:in `first_child_node_with_attribute'
+  scrubyt (0.4.06) lib/scrubyt/utils/xpathutils.rb:125:in `find_nearest_node_with_attribute'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/filters/attribute_filter.rb:5:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:250:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:248:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:248:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:279:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:275:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:275:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:270:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:270:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:137:in `evaluate_extractor'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:136:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:136:in `evaluate_extractor'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:133:in `loop'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:133:in `evaluate_extractor'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:132:in `catch'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:132:in `evaluate_extractor'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:85:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `new'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `define'
+  app/controllers/home_controller.rb:4:in `index'
+
+Rendered rescues/_trace (47.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 21:21:33) [GET]
+Rendering home/index
+Completed in 489ms (View: 12, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 21:22:18) [GET]
+Rendering home/index
+Completed in 444ms (View: 10, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 21:22:19) [GET]
+Rendering home/index
+Completed in 726ms (View: 12, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 21:22:26) [GET]
+Rendering home/index
+Completed in 515ms (View: 10, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 21:22:30) [GET]
+Rendering home/index
+Completed in 340ms (View: 1, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 21:22:44) [GET]
+Rendering home/index
+Completed in 534ms (View: 6, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 21:23:45) [GET]
+Rendering home/index
+Completed in 651ms (View: 11, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 21:24:06) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:251:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:248:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:248:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:279:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:275:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:275:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:270:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/scraping/pattern.rb:270:in `evaluate'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:137:in `evaluate_extractor'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:136:in `each'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:136:in `evaluate_extractor'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:133:in `loop'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:133:in `evaluate_extractor'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:132:in `catch'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:132:in `evaluate_extractor'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:85:in `initialize'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `new'
+  scrubyt (0.4.06) lib/scrubyt/core/shared/extractor.rb:32:in `define'
+  app/controllers/home_controller.rb:4:in `index'
+
+Rendered rescues/_trace (45.1ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 21:24:11) [GET]
+Rendering home/index
+Completed in 598ms (View: 10, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 21:24:18) [GET]
+Rendering home/index
+Completed in 312ms (View: 1, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-16 21:24:23) [GET]
+Rendering home/index
+Completed in 432ms (View: 1, DB: 0) | 200 OK [http://localhost/home]
