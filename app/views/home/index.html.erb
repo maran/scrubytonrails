@@ -1,5 +1,5 @@
 <h1>Listing home</h1>
 
-<% @google_data.each do |loop| %>
-<%=h loop.result %><br />
+<% @exhibitions.to_hash.each do |exhibition| %>
+	<%= link_to exhibition[:link_title], exhibition[:url] %><br />
 <% end %>
